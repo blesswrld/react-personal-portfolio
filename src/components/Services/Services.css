@@ -58,3 +58,11 @@
 .services-note a {
     font-weight: bold;
 }
+
+[data-theme="light"] p {
+    color: var(--text-color);
+}
+
+[data-theme="light"] .service-card {
+    background-color: var(--background-color);
+}

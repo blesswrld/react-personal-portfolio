@@ -31,3 +31,18 @@
     color: var(--primary-color);
 }
  */
+
+/* [data-theme="light"] .footer-section {
+    background-color: var(--background-color);
+}
+[data-theme="light"] .footer-content a {
+    color: var(--text-color);
+}
+
+[data-theme="light"] .footer-content a:hover {
+    color: var(--primary-color);
+}
+
+[data-theme="light"] .footer-section {
+    border-top: 1px solid #d1d1d1;
+} */

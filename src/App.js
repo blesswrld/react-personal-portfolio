@@ -10,11 +10,15 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
+import ThemeToggle from "./components/ThemeToggle/ThemeToggle";
+
 function App() {
     return (
         <>
             {" "}
             <Navbar />
+            {/* Переключение темы в доработке... */}
+            {/* <ThemeToggle /> */}
             <main>
                 {" "}
                 {/* Обертка для основного контента */}

@@ -76,3 +76,13 @@
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
 }
+
+/* [data-theme="light"] p {
+    color: var(--text-secondary-color);
+}
+
+[data-theme="light"] .tech-tag {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+ */
