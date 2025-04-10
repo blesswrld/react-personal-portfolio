@@ -1,11 +1,12 @@
 import React from "react";
 import "./Portfolio.css";
 
-import project1Img from "../../assets/icons/projects/irvas-project.png";
-import project2Img from "../../assets/icons/projects/loan-project.png";
-import project3Img from "../../assets/icons/projects/marvel-web-app1.png";
-import project4Img from "../../assets/icons/projects/picture-project.png";
-import project5Img from "../../assets/icons/projects/food-project.png";
+import project1Img from "../../assets/icons/projects/irvas-project.jpg";
+import project2Img from "../../assets/icons/projects/loan-project.jpg";
+import project3Img from "../../assets/icons/projects/marvel-web-app.jpg";
+import project4Img from "../../assets/icons/projects/picture-project.jpg";
+import project5Img from "../../assets/icons/projects/food-project.jpg";
+import project6Img from "../../assets/icons/projects/rest-countries-api.jpg";
 
 const projects = [
     {
@@ -52,6 +53,15 @@ const projects = [
         tech: ["HTML", "JavaScript", "JSON Server", "CSS"],
         liveUrl: "https://food-project-amber-phi.vercel.app/",
         repoUrl: "https://github.com/blesswrld/food-project",
+    },
+    {
+        title: "Rest Countries Project (Веб-приложение)",
+        description:
+            "Веб-приложение на React для исследования стран мира, использующее Rest Countries API. Построено с применением функциональных компонентов и хуков для асинхронной работы с данными. Позволяет переключать светлую/темную тему, просматривать список стран, фильтровать их по названию или региону, а также изучать подробную информацию о выбранной стране, включая её соседей.",
+        imageUrl: project6Img,
+        tech: ["REACT", "JS (Hooks)", "API Integration", "Styled Components"],
+        liveUrl: "https://rest-countries-api-ten-xi.vercel.app/",
+        repoUrl: "https://github.com/blesswrld/REST-Countries-Api",
     },
 ];
 
